@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a2e;
+    padding: 10px;
+}
+
+.logo {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 28px;
+}
+
+li {
+    color: white;
+}
+
+
+.split-container {
+    display: flex;
+    height: 400px;      
+}
+
+.left {
+    width: 45%;
+    background-color: rgb(204, 222, 229);
+}
+
+.right {
+    width: 55%;
+    background-color: rgb(185, 210, 231);
+    margin: 0 auto;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    font: transparent;
+}
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.Explore {
+    color: white;
+    background-color: blue;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.Cooking {
+    color: white;
+    background-color: blue;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+
+img  {
+    border-radius: 25px;
+    padding: 10px;
+    margin: 15px;
+    
+}
