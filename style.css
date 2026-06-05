@@ -18,7 +18,7 @@ img {
     border: 2px solid #7A5200;
     padding: 10px;
     background-color: #FFFDF5;      
-    border-radius: 10px;
+    border-radius: 50px;
     box-shadow: 3px 3px 18px rgba(122, 82, 0, 0.35);
     gap: 10px;
     margin: 0 auto;
@@ -38,11 +38,12 @@ p {
 }
 
 button {
-    width: 270px;
+    width: 240px;
     color: #FFFDF5;
     background-color: #7A5200;      
     border-radius: 8px;
     border: none;
+    margin-bottom: 10px;
 }
 
 button:hover {
