@@ -478,8 +478,7 @@ const Value = {
   "limit": 30
 }
 
-console.log(Value.posts[0].id);
-console.log(Value.posts[0].title);
+
 
 Value.posts.forEach(post => {
     console.log(post.id, post.title);
