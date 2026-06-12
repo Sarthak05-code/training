@@ -22,6 +22,6 @@ array.forEach(arr => {
   }
 });
 
-console.log("Test Runner");
+console.log("Test Runner";
 
 
