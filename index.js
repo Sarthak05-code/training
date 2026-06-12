@@ -25,3 +25,11 @@ array.forEach(arr => {
 console.log("Test Runner");
 
 
+function server() {
+  setTimeout(() => {
+    
+  console.log("This message will show. right?");
+  }, 2000);
+}
+
+
