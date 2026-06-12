@@ -3,18 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title - Sarthak</title>
+    <title>Practice</title>
 </head>
 <body>
-    <button onclick="caller()">Click ME!</button>
+
+    <form onsubmit="getValue(event)">
+        
+        <label for="userName">Name:</label>
+        <input type="text"
+               id="userName"
+               placeholder="Enter your name">
+
+        <br><br>
+
+        <label for="numberTaker">Number:</label>
+        <input type="number"
+               id="numberTaker"
+               placeholder="Enter your number">
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <script src="index.js"></script>
+
 </body>
-<script>
-
-    function caller() {
-        alert("This is an alert message")
-    }
-
-</script>
-
-<script src="index.js"></script>
 </html>
