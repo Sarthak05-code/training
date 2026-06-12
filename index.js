@@ -21,3 +21,4 @@ array.forEach(arr => {
     console.log(arr);
   }
 });
+
